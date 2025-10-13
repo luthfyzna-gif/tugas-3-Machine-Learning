@@ -34,7 +34,7 @@ y = df['penerima_bansos']
 
 # 4. Membagi Data Menjadi Data Latih dan Data Uji
 # Data latih digunakan untuk melatih model
-# Data uji digunakan untuk menguji performa model
+# Data uji digunakan untuk menguji performa model 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
 
 # 5. Membangun Model Naive Bayes (Gaussian Naive Bayes)
